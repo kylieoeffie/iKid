@@ -48,16 +48,6 @@
 			path = iKid;
 			sourceTree = "<group>";
 		};
-		A8A29D462F340F7000ECB925 /* iKidTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = iKidTests;
-			sourceTree = "<group>";
-		};
-		A8A29D502F340F7000ECB925 /* iKidUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = iKidUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				A8A29D2F2F340F6F00ECB925 /* iKid */,
-				A8A29D462F340F7000ECB925 /* iKidTests */,
-				A8A29D502F340F7000ECB925 /* iKidUITests */,
 				A8A29D2E2F340F6F00ECB925 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				A8A29D452F340F7000ECB925 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				A8A29D462F340F7000ECB925 /* iKidTests */,
-			);
 			name = iKidTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				A8A29D4F2F340F7000ECB925 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A8A29D502F340F7000ECB925 /* iKidUITests */,
 			);
 			name = iKidUITests;
 			packageProductDependencies = (
