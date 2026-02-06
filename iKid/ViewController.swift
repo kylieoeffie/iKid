@@ -15,5 +15,25 @@ class ViewController: UIViewController {
     var currentIndex = 0
     var showingAnswer = false
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+        if let tabTitle = tabBarItem.title {
+            switch tabTitle {
+            case "Good":
+                jokes = []
+            case "Pun":
+                jokes = []
+                
+            case "Dad":
+                jokes = []
+                
+            default:
+                break
+            }
+        }        
+    }
+        
 }
 
