@@ -32,7 +32,22 @@ class ViewController: UIViewController {
             default:
                 break
             }
-        }        
+        }
+        
+        jokeLabel.text = jokes.first?.question
+    }
+    
+    @IBAction func nextTapped (_ sender: UIButton) {
+        guard !jokes.isEmpty else { return }
+        
+        if showingAnswer {
+            currentIndex = (currentIndex + 1) % jokes.count
+            jokeLabel.text = jokes[currentIndex].question
+        } else {
+            jokeLabel.text = jokes[currentIndex].question
+        }
+        
+        showingAnswer.toggle()
     }
         
 }
