@@ -22,9 +22,8 @@
                                 <color key="textColor" red="0.3598632812" green="0.3166503906" blue="0.2541503906" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5oJ-zI-r3l">
-                                <rect key="frame" x="279" y="516" width="60" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5oJ-zI-r3l">
+                                <rect key="frame" x="317" y="684" width="60" height="35"/>
                                 <color key="backgroundColor" red="0.2619628906" green="0.08288574219" blue="0.1137084961" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next">
@@ -38,13 +37,15 @@
                         <viewLayoutGuide key="safeArea" id="ktI-gf-BHN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ktI-gf-BHN" firstAttribute="bottom" secondItem="5oJ-zI-r3l" secondAttribute="bottom" constant="16" id="C4q-uR-m4f"/>
                             <constraint firstItem="e0Z-Kq-bw8" firstAttribute="centerX" secondItem="ktI-gf-BHN" secondAttribute="centerX" id="KuM-eD-d31"/>
                             <constraint firstItem="e0Z-Kq-bw8" firstAttribute="centerY" secondItem="ktI-gf-BHN" secondAttribute="centerY" id="ZVE-ng-CGh"/>
                             <constraint firstItem="ktI-gf-BHN" firstAttribute="trailing" secondItem="e0Z-Kq-bw8" secondAttribute="trailing" constant="24" id="cCD-Gx-sXV"/>
+                            <constraint firstItem="ktI-gf-BHN" firstAttribute="trailing" secondItem="5oJ-zI-r3l" secondAttribute="trailing" constant="16" id="d8F-pz-G84"/>
                             <constraint firstItem="e0Z-Kq-bw8" firstAttribute="leading" secondItem="ktI-gf-BHN" secondAttribute="leading" constant="24" id="qPY-Lh-rCa"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Good" id="zMG-b3-VMm"/>
+                    <tabBarItem key="tabBarItem" title="Good" image="hand.thumbsup.fill" catalog="system" id="zMG-b3-VMm"/>
                     <connections>
                         <outlet property="jokeLabel" destination="e0Z-Kq-bw8" id="vmp-sF-oIs"/>
                     </connections>
@@ -67,9 +68,8 @@
                                 <color key="textColor" red="0.3598632812" green="0.3166503906" blue="0.2541503906" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cth-mW-YXf">
-                                <rect key="frame" x="279" y="516" width="60" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cth-mW-YXf">
+                                <rect key="frame" x="317" y="684" width="60" height="35"/>
                                 <color key="backgroundColor" red="0.2619628906" green="0.08288574219" blue="0.1137084961" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next">
@@ -84,12 +84,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="MUK-sd-Jjq" firstAttribute="trailing" secondItem="T0D-KO-cRs" secondAttribute="trailing" constant="24" id="NcT-wZ-WKn"/>
+                            <constraint firstItem="MUK-sd-Jjq" firstAttribute="bottom" secondItem="Cth-mW-YXf" secondAttribute="bottom" constant="16" id="c69-DL-f6Z"/>
+                            <constraint firstItem="MUK-sd-Jjq" firstAttribute="trailing" secondItem="Cth-mW-YXf" secondAttribute="trailing" constant="16" id="qcz-a5-tIl"/>
                             <constraint firstItem="T0D-KO-cRs" firstAttribute="centerX" secondItem="MUK-sd-Jjq" secondAttribute="centerX" id="sKv-dB-WSX"/>
                             <constraint firstItem="T0D-KO-cRs" firstAttribute="leading" secondItem="MUK-sd-Jjq" secondAttribute="leading" constant="24" id="wo1-Cv-xrP"/>
                             <constraint firstItem="T0D-KO-cRs" firstAttribute="centerY" secondItem="MUK-sd-Jjq" secondAttribute="centerY" id="yep-Nv-JsW"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Pun" id="Eyv-TY-td6"/>
+                    <tabBarItem key="tabBarItem" title="Pun" image="list.clipboard" catalog="system" id="Eyv-TY-td6"/>
                     <connections>
                         <outlet property="jokeLabel" destination="T0D-KO-cRs" id="hae-9k-UuW"/>
                     </connections>
@@ -106,9 +108,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bp5-uh-wpz">
-                                <rect key="frame" x="279" y="516" width="60" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bp5-uh-wpz">
+                                <rect key="frame" x="317" y="684" width="60" height="35"/>
                                 <color key="backgroundColor" red="0.2619628906" green="0.08288574219" blue="0.1137084961" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next">
@@ -128,13 +129,15 @@
                         <viewLayoutGuide key="safeArea" id="oUA-D2-rIr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="oUA-D2-rIr" firstAttribute="bottom" secondItem="Bp5-uh-wpz" secondAttribute="bottom" constant="16" id="Plo-IT-nLr"/>
+                            <constraint firstItem="oUA-D2-rIr" firstAttribute="trailing" secondItem="Bp5-uh-wpz" secondAttribute="trailing" constant="16" id="X5V-gJ-Idf"/>
                             <constraint firstItem="9ei-7C-Zfs" firstAttribute="centerX" secondItem="oUA-D2-rIr" secondAttribute="centerX" id="cWw-nQ-pXp"/>
                             <constraint firstItem="oUA-D2-rIr" firstAttribute="trailing" secondItem="9ei-7C-Zfs" secondAttribute="trailing" constant="24" id="j3a-OG-K1J"/>
                             <constraint firstItem="9ei-7C-Zfs" firstAttribute="centerY" secondItem="oUA-D2-rIr" secondAttribute="centerY" id="r1L-sf-IL2"/>
                             <constraint firstItem="9ei-7C-Zfs" firstAttribute="leading" secondItem="oUA-D2-rIr" secondAttribute="leading" constant="24" id="yYN-Mh-GLR"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Dad" id="qDO-gI-ODQ"/>
+                    <tabBarItem key="tabBarItem" title="Dad" image="figure.wave" catalog="system" id="qDO-gI-ODQ"/>
                     <connections>
                         <outlet property="jokeLabel" destination="9ei-7C-Zfs" id="UJ5-Q3-tY0"/>
                     </connections>
@@ -164,6 +167,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="figure.wave" catalog="system" width="80" height="128"/>
+        <image name="hand.thumbsup.fill" catalog="system" width="128" height="121"/>
+        <image name="list.clipboard" catalog="system" width="98" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
