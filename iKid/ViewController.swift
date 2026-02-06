@@ -44,7 +44,7 @@ class ViewController: UIViewController {
             currentIndex = (currentIndex + 1) % jokes.count
             jokeLabel.text = jokes[currentIndex].question
         } else {
-            jokeLabel.text = jokes[currentIndex].question
+            jokeLabel.text = jokes[currentIndex].answer
         }
         
         showingAnswer.toggle()
