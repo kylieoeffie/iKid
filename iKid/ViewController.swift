@@ -23,11 +23,11 @@ class ViewController: UIViewController {
             switch tabTitle {
             case "Good":
                 jokes = [
-                    ("I got kicked out from a Vietnamese restaurant...", "They bahn mi pho life.")
+                    ("Why do seagulls fly over the sea?", "If they flew over the bay, they'd be bagels")
                 ]
             case "Pun":
                 jokes = [
-                    ("Why do seagulls fly over the sea?", "If they flew over the bay, they'd be bagels")
+                    ("I got kicked out from a Vietnamese restaurant...", "They bahn mi pho life.")
                 ]
                 
             case "Dad":

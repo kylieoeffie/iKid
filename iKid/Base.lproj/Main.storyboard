@@ -16,15 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Joke Question" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0Z-Kq-bw8">
-                                <rect key="frame" x="102" y="343" width="189" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joke Question" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0Z-Kq-bw8">
+                                <rect key="frame" x="24" y="409.66666666666669" width="345" height="33.666666666666686"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <color key="textColor" red="0.3598632812" green="0.3166503906" blue="0.2541503906" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5oJ-zI-r3l">
-                                <rect key="frame" x="279" y="411" width="60" height="35"/>
+                                <rect key="frame" x="279" y="516" width="60" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2619628906" green="0.08288574219" blue="0.1137084961" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -38,6 +37,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ktI-gf-BHN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="e0Z-Kq-bw8" firstAttribute="centerX" secondItem="ktI-gf-BHN" secondAttribute="centerX" id="KuM-eD-d31"/>
+                            <constraint firstItem="e0Z-Kq-bw8" firstAttribute="centerY" secondItem="ktI-gf-BHN" secondAttribute="centerY" id="ZVE-ng-CGh"/>
+                            <constraint firstItem="ktI-gf-BHN" firstAttribute="trailing" secondItem="e0Z-Kq-bw8" secondAttribute="trailing" constant="24" id="cCD-Gx-sXV"/>
+                            <constraint firstItem="e0Z-Kq-bw8" firstAttribute="leading" secondItem="ktI-gf-BHN" secondAttribute="leading" constant="24" id="qPY-Lh-rCa"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Good" id="zMG-b3-VMm"/>
                     <connections>
@@ -56,15 +61,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Joke Question" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0D-KO-cRs">
-                                <rect key="frame" x="102" y="343" width="189" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joke Question" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0D-KO-cRs">
+                                <rect key="frame" x="24" y="409.66666666666669" width="345" height="33.666666666666686"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <color key="textColor" red="0.3598632812" green="0.3166503906" blue="0.2541503906" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cth-mW-YXf">
-                                <rect key="frame" x="279" y="411" width="60" height="35"/>
+                                <rect key="frame" x="279" y="516" width="60" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2619628906" green="0.08288574219" blue="0.1137084961" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -78,6 +82,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MUK-sd-Jjq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MUK-sd-Jjq" firstAttribute="trailing" secondItem="T0D-KO-cRs" secondAttribute="trailing" constant="24" id="NcT-wZ-WKn"/>
+                            <constraint firstItem="T0D-KO-cRs" firstAttribute="centerX" secondItem="MUK-sd-Jjq" secondAttribute="centerX" id="sKv-dB-WSX"/>
+                            <constraint firstItem="T0D-KO-cRs" firstAttribute="leading" secondItem="MUK-sd-Jjq" secondAttribute="leading" constant="24" id="wo1-Cv-xrP"/>
+                            <constraint firstItem="T0D-KO-cRs" firstAttribute="centerY" secondItem="MUK-sd-Jjq" secondAttribute="centerY" id="yep-Nv-JsW"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Pun" id="Eyv-TY-td6"/>
                     <connections>
@@ -96,15 +106,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Joke Question" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ei-7C-Zfs">
-                                <rect key="frame" x="102" y="343" width="189" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
-                                <color key="textColor" red="0.3598632812" green="0.3166503906" blue="0.2541503906" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bp5-uh-wpz">
-                                <rect key="frame" x="279" y="411" width="60" height="35"/>
+                                <rect key="frame" x="279" y="516" width="60" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2619628906" green="0.08288574219" blue="0.1137084961" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -115,9 +118,21 @@
                                     <action selector="nextTapped:" destination="QGL-ru-5Ob" eventType="touchUpInside" id="GO6-o3-uZ9"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joke Question" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ei-7C-Zfs">
+                                <rect key="frame" x="24" y="409.66666666666669" width="345" height="33.666666666666686"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" red="0.3598632812" green="0.3166503906" blue="0.2541503906" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oUA-D2-rIr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9ei-7C-Zfs" firstAttribute="centerX" secondItem="oUA-D2-rIr" secondAttribute="centerX" id="cWw-nQ-pXp"/>
+                            <constraint firstItem="oUA-D2-rIr" firstAttribute="trailing" secondItem="9ei-7C-Zfs" secondAttribute="trailing" constant="24" id="j3a-OG-K1J"/>
+                            <constraint firstItem="9ei-7C-Zfs" firstAttribute="centerY" secondItem="oUA-D2-rIr" secondAttribute="centerY" id="r1L-sf-IL2"/>
+                            <constraint firstItem="9ei-7C-Zfs" firstAttribute="leading" secondItem="oUA-D2-rIr" secondAttribute="leading" constant="24" id="yYN-Mh-GLR"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dad" id="qDO-gI-ODQ"/>
                     <connections>
@@ -126,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gbE-i8-aYr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="254" y="189"/>
+            <point key="canvasLocation" x="252.67175572519082" y="188.73239436619718"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="9wy-f8-oOb">
