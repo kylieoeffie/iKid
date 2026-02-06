@@ -22,12 +22,18 @@ class ViewController: UIViewController {
         if let tabTitle = tabBarItem.title {
             switch tabTitle {
             case "Good":
-                jokes = []
+                jokes = [
+                    ("I got kicked out from a Vietnamese restaurant...", "They bahn mi pho life.")
+                ]
             case "Pun":
-                jokes = []
+                jokes = [
+                    ("Why do seagulls fly over the sea?", "If they flew over the bay, they'd be bagels")
+                ]
                 
             case "Dad":
-                jokes = []
+                jokes = [
+                    ("What motorcycle makes jokes?", "A Yamahahahahaha")
+                ]
                 
             default:
                 break
